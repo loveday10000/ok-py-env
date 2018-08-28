@@ -13,22 +13,34 @@ ps:安装完成以后,重启系统,即可使用 pycharm软件.
 
 一键安装软件列表
 
-1.python  ipython  ipython3  python-pip  python3-pip virtualenv virtualenvwrapper
+1.  python  
+    ipython  
+    ipython3  
+    python-pip  
+    python3-pip 
+    virtualenv 
+    virtualenvwrapper
 
-2. vim  git  mysql-server  mysql-client  libmysqlclient-dev
+2.  vim  
+    git
+    mysql-server  
+    mysql-client  
+    libmysqlclient-dev
 
-3.谷歌浏览器  pycharm专业版  curl软件
+3.  谷歌浏览器  
+    pycharm专业版  
+    curl软件
 
 4.自动修改pip国外源 为 国内清华大学源
 
 
  **C 安装教程** 
 
-1.打开OnekeyPython.zip解压出,ok-py_env.sh 
+1.下载OnekeyPython.zip解压,把ok-py_env.sh放到/home/用户/    
 
 2.终端执行
 
-    sh  ./xxx文件下/ ok-py-env.sh   
+    sh ok-py-env.sh
 
  **D 使用说明** 
 
