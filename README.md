@@ -7,6 +7,8 @@ Include：ubuntu change resource list for china tuna mirros，git，ipython2/3�
 
 在一个新装的linux系统上面,联网快速构建一个python基本开发环境,一个简单的一键shell脚本
 
+ps:安装完成以后,重启系统,即可使用 pycharm软件.
+
  **B 软件架构** 
 
 一键安装软件列表
@@ -19,6 +21,7 @@ Include：ubuntu change resource list for china tuna mirros，git，ipython2/3�
 
 4.自动修改pip国外源 为 国内清华大学源
 
+
  **C 安装教程** 
 
 1.打开OnekeyPython.zip解压出,ok-py_env.sh 
@@ -29,9 +32,7 @@ Include：ubuntu change resource list for china tuna mirros，git，ipython2/3�
 
  **D 使用说明** 
 
-1.执行完成以后,需重新电脑,启动器才有pycharm图标了. 
-
-2.生成虚拟环境文件夹
+1.生成虚拟环境文件夹
 
     source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
@@ -41,7 +42,7 @@ Include：ubuntu change resource list for china tuna mirros，git，ipython2/3�
 
     (或者自行把virutalenv和python3环境添加到环境变量)
 
-3.mysql安装以后,mysql会自动生成一个随机密码,修改密码方式如下:
+2.mysql安装以后,mysql会自动生成一个随机密码,修改密码方式如下:
 
     1).登陆mysql
 
