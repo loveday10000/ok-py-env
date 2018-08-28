@@ -5,7 +5,7 @@
 Fast create python environment in new ubuntu18.04；
 Include：ubuntu change resource list for china tuna mirros，git，ipython2/3，pip2/3，virtualenv，PycharmProfessional。
 
-在一个新装的linux系统上面,联网快速构建一个python基本开发环境,一个简单的一键shell脚本
+在一个新装的linux系统上面,联网快速构建一个python基本开发环境,ok-py-env.sh是一个简单的一键shell脚本
 
 
 ps: 执行过程中,看提示 回车或者yes
