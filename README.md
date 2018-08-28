@@ -7,7 +7,10 @@ Include：ubuntu change resource list for china tuna mirros，git，ipython2/3�
 
 在一个新装的linux系统上面,联网快速构建一个python基本开发环境,一个简单的一键shell脚本
 
-ps:安装完成以后,重启系统,即可使用 pycharm软件.
+
+ps: 执行过程中,看提示 回车或者yes
+
+    安装完成以后,重启系统,即可使用 pycharm软件.
 
  **B 软件架构** 
 
