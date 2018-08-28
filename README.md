@@ -21,7 +21,9 @@ ps: 执行过程中,看提示 回车或者yes
     ipython3  
     python-pip  
     python3-pip 
+    
     virtualenv 
+    
     virtualenvwrapper
 
 2.  vim  
