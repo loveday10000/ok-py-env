@@ -47,17 +47,19 @@ ps: 执行过程中,看提示 回车或者yes
 
  **D 使用说明** 
 
-1.生成虚拟环境文件夹
+1.若需要使用自定义虚拟环境,创建方法如下
+
+    1)生成虚拟环境文件夹
 
     source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
-    创建py3虚拟环境方法: 
+    2)创建py3虚拟环境方法: 
 
     mkvirtualenv 环境名 -p /usr/bin/python3
 
-    (或者自行把virutalenv和python3环境添加到环境变量)
+  
 
-2.mysql安装以后,mysql会自动生成一个随机密码,修改密码方式如下:
+2.mysql默认是一个随机密码,修改自定义密码如下
 
     1).登陆mysql
 
@@ -73,6 +75,6 @@ ps: 执行过程中,看提示 回车或者yes
 
 	flush privileges;
         
-        quit;
+quit;
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/190044_32030cc4_2026959.png "使用方法.png")
