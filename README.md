@@ -14,25 +14,29 @@ ps: 执行过程中,看提示 回车或者yes
 
  **B 软件架构** 
 
-一键安装软件列表
+1.python基本软件
 
-1.  python  
-    ipython  
-    ipython3  
-    python-pip  
-    python3-pip 
-    virtualenv 
-    virtualenvwrapper
+python  
+ipython  
+ipython3  
+python-pip  
+python3-pip 
+virtualenv 
+virtualenvwrapper
 
-2.  vim  
-    git
-    mysql-server  
-    mysql-client  
-    libmysqlclient-dev
+2.常用软件
 
-3.  谷歌浏览器  
-    pycharm专业版  
-    curl软件
+vim  
+git
+mysql-server  
+mysql-client  
+libmysqlclient-dev
+curl软件
+
+3.开发软件
+
+谷歌浏览器
+pycharm专业版
 
 4.自动修改pip国外源 为 国内清华大学源
 
