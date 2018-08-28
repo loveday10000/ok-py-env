@@ -19,11 +19,11 @@ Include：ubuntu change resource list for china tuna mirros，git，ipython2/3�
 
  **C 安装教程** 
 
-1.用Ubuntu自带的火狐浏览器下载,下载目录为tmp/mozilla_用户名0)
+1.打开OnekeyPython.zip解压出,ok-py_env.sh 
 
-2.找OnekeyPython.zip到,解压
+2.终端执行
 
-3.(例如解压到/home/用户名/ok-py-python.sh)  进入打开终端运行: sh ./ok-py-python/sh
+    sh  ./xxx文件下/ ok-py-env.sh   
 
  **D 使用说明** 
 
