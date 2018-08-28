@@ -1,38 +1,21 @@
 # OnekeyPython
 
-#### 项目介绍
+ **A 项目介绍** 
 Fast create python environment in new ubuntu18.04；
 Include：ubuntu change resource list for china tuna mirros，git，ipython2/3，pip2/3，virtualenv，PycharmProfessional。
+在一个新装的linux系统上面,联网快速构建一个python基本开发环境,一个简单的一键shell脚本
 
-#### 软件架构
-软件架构说明
+ **B 软件架构** 
+一键安装软件列表
+1.python  ipython  ipython3  python-pip  python3-pip virtualenv virtualenvwrapper
+2. vim  git  mysql-server  mysql-client  libmysqlclient-dev
+3.谷歌浏览器  pycharm专业版  curl软件
 
+ **C 安装教程** 
+1.用Ubuntu自带的火狐浏览器下载,下载目录为tmp/mozilla_user0)
+2.找OnekeyPython.zip到提取到此处,默认路径为/tmp/mozilla_user0/loveday10000-OnekeyPython-master/OnekeyPython/
+3.进入打开终端运行: sh /tmp/mozilla_user0/loveday10000-OnekeyPython-master/OnekeyPython/ok-py.env.sh
 
-#### 安装教程
+ **D 使用说明** 
 
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+执行完成以后,需重新电脑,启动器才有pycharm图标了. 
