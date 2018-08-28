@@ -70,4 +70,6 @@ ps:安装完成以后,重启系统,即可使用 pycharm软件.
 
 	flush privileges;
         
-        quit;![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/190044_32030cc4_2026959.png "使用方法.png")
+        quit;
+
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/190044_32030cc4_2026959.png "使用方法.png")
