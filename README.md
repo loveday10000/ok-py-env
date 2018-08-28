@@ -81,6 +81,6 @@ pycharm专业版
         
         quit;
 
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/190044_32030cc4_2026959.png "使用方法.png")
+![执行方法](https://images.gitee.com/uploads/images/2018/0828/190044_32030cc4_2026959.png "使用方法.png")
 
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/194259_10483f6b_2026959.png "重启后已安装的软件.png")
+![执行完ok-py-env.sh重启后,安装的软件](https://images.gitee.com/uploads/images/2018/0828/194259_10483f6b_2026959.png "重启后已安装的软件.png")
