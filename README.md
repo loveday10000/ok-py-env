@@ -75,6 +75,6 @@ ps: 执行过程中,看提示 回车或者yes
 
 	flush privileges;
         
-quit;
+        quit;
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0828/190044_32030cc4_2026959.png "使用方法.png")
