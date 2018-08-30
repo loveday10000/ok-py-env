@@ -1,6 +1,7 @@
 # Onekey-Python-Environment for linux
 
  **A project introduction** 
+ 
 For example: Fast create python environment in new ubuntu18.04；
 On a newly installed Linux system, networking quickly builds a basic python development environment, and ok-py-env.sh is a simple one-click shell script
 Ps: during execution, enter or yes, and restart the system, the python software will take effect
@@ -8,6 +9,7 @@ Ps: during execution, enter or yes, and restart the system, the python software 
  **B software architecture** 
 
 1.python basic software
+
 python
 ipython
 ipython3
@@ -17,6 +19,7 @@ virtualenv
 virtualenvwrapper
 
 2.common software
+
 vim
 git
 curl
@@ -31,7 +34,9 @@ tips: Automatic modification of PIP foreign source is the source of tsinghua uni
 
 
  **C Install the tutorial** 
+ 
 $: wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip
+
 $: sh ok-py-env-master/ok-py-env.sh
 
  **D instructions** 
