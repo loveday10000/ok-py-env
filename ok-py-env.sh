@@ -1,5 +1,6 @@
 #! /usr/bin/bash
 #更新apt包的源及软件
+rm master.zip
 sudo apt-get -y update
 #修改pip为国内源
 mkdir .pip
@@ -38,3 +39,4 @@ sudo apt-get -y install google-chrome-stable
 #安装culr
 sudo apt -y install curl
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+rm -r ok-py-env-master
