@@ -31,8 +31,8 @@ tips: Automatic modification of PIP foreign source is the source of tsinghua uni
 
 
  **C Install the tutorial** 
-wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip
-sh ok-py-env-master/ok-py-env.sh
+$: wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip
+$: sh ok-py-env-master/ok-py-env.sh
 
  **D instructions** 
 
@@ -56,7 +56,7 @@ sh ok-py-env-master/ok-py-env.sh
 
 	use mysql;
 
-	update user set authentication_string=PASSWORD("这里输入你要改的密码") where User='root';
+	update user set authentication_string=PASSWORD("your_password") where User='root';
 
 	update user set plugin="mysql_native_password";
 
