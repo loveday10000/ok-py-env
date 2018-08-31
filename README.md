@@ -4,7 +4,7 @@
  
 For example: Fast create python environment in new ubuntu18.04；
 On a newly installed Linux system, networking quickly builds a basic python development environment, and ok-py-env.sh is a simple one-click shell script
-Ps: during execution, enter or yes, and restart the system, the python software will take effect
+Ps: during execution, enter or yes, and auto restart the system, the python software will take effect
 
  **B software architecture** 
 
@@ -35,7 +35,7 @@ tips: Automatic modification of PIP foreign source is the source of tsinghua uni
 
 
  **C Install the tutorial** 
- 
+     terminal run command and auto restart the system
 	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-py-env.sh
 
 
@@ -88,10 +88,10 @@ vim git curl mongodb sublime mysql-server mysql-client libmysqlclient-dev google
 提示：PIP国外源的自动修改是清华大学在中国的源头
 
 C安装教程
-
+  终端输入下面命令: 运行完毕后,会自动linux系统.
 	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-py-env.sh
 
-
+	
 D说明
 
 1.如果需要使用自定义虚拟环境，请按如下所示进行创建
