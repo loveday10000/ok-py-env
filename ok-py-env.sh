@@ -16,6 +16,7 @@ sudo apt-get -y install ipython3
 sudo apt-get -y install python-pip
 sudo apt-get -y install python3-pip
 sudo pip install --upgrade pip
+sudo pip3 install --upgrade pip
 sudo apt-get -y install virtualenv
 sudo apt-get -y install virtualenvwrapper
 sudo apt-get -y install mongodb
