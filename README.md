@@ -1,4 +1,4 @@
-# Onekey-Python-Environment for linux
+# Onekey-Python-Environment for linux include apt package
 
  **A project introduction** 
  
@@ -36,9 +36,8 @@ tips: Automatic modification of PIP foreign source is the source of tsinghua uni
 
  **C Install the tutorial** 
  
-	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip
+	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-py-env.sh
 
-	sh ok-py-env-master/ok-py-env.sh
 
  **D instructions** 
 
@@ -71,7 +70,7 @@ tips: Automatic modification of PIP foreign source is the source of tsinghua uni
         quit;
 
 
-适用于Linux的Onekey-Python-Environment
+适用于用apt包的 Linux系统 的Onekey-Python-Environment
 项目介绍
 
 例如：在新的ubuntu18.04中快速创建python环境;在新安装的Linux系统上，网络快速构建基本的python开发环境，而ok-py-env.sh是一个简单的一键式shell脚本Ps：在执行期间，输入或是，并重新启动系统，python软件将生效
@@ -90,9 +89,9 @@ vim git curl mongodb sublime mysql-server mysql-client libmysqlclient-dev google
 
 C安装教程
 
-wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip
+	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-py-env.sh
 
-sh ok-py-env-master/ok-py-env.sh
+
 D说明
 
 1.如果需要使用自定义虚拟环境，请按如下所示进行创建
