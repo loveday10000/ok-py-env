@@ -90,7 +90,9 @@ vim git curl mongodb sublime mysql-server mysql-client libmysqlclient-dev google
 提示：PIP国外源的自动修改是清华大学在中国的源头
 
 C安装教程
-  终端输入下面命令: 运行完毕后,会自动linux系统.
+
+终端输入下面命令: 运行完毕后,会自动linux系统
+  
 	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-py-env.sh
 
 	
