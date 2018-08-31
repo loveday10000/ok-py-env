@@ -1,6 +1,9 @@
 #! /usr/bin/bash
 #更新apt包的源及软件
 rm master.zip
+wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
+sudo python3 oh-my-tuna.py --global
+rm oh-my-tuna.py
 sudo apt-get -y update
 #修改pip为国内源
 mkdir .pip
