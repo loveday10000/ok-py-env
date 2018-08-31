@@ -36,7 +36,7 @@ tips: Automatic modification of PIP foreign source is the source of tsinghua uni
 
  **C Install the tutorial** 
  
-     terminal run command and auto restart the system
+terminal run command and auto restart the system
      
 	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-py-env.sh
 
