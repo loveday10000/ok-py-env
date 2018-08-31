@@ -71,4 +71,55 @@ tips: Automatic modification of PIP foreign source is the source of tsinghua uni
         quit;
 
 
+适用于Linux的Onekey-Python-Environment
+项目介绍
+
+例如：在新的ubuntu18.04中快速创建python环境;在新安装的Linux系统上，网络快速构建基本的python开发环境，而ok-py-env.sh是一个简单的一键式shell脚本Ps：在执行期间，输入或是，并重新启动系统，python软件将生效
+
+B软件架构
+
+1.python基本软件
+
+python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper
+
+2.常用软件
+
+vim git curl mongodb sublime mysql-server mysql-client libmysqlclient-dev google-chrome-stable pycharm-profession
+
+提示：PIP国外源的自动修改是清华大学在中国的源头
+
+C安装教程
+
+wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip
+
+sh ok-py-env-master/ok-py-env.sh
+D说明
+
+1.如果需要使用自定义虚拟环境，请按如下所示进行创建
+
+1)Generate virtual environment folders
+
+	source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
+2)Create py3 virtual environment method
+
+	mkvirtualenv venv_name -p /usr/bin/python3
+2.mysql默认是随机密码。修改自定义密码，如下所示
+
+1).log in mysql
+
+	sudo mysql
+
+2).Change the login password
+
+	use mysql;
+
+	update user set authentication_string=PASSWORD("your_password") where User='root';
+
+	update user set plugin="mysql_native_password";
+
+	flush privileges;
+
+	quit;
+    
 ![ok-py-env.sh](https://images.gitee.com/uploads/images/2018/0828/194259_10483f6b_2026959.png "ok.png")
