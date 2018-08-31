@@ -29,6 +29,12 @@ sudo apt-get -y install git
 sudo apt-get -y install mysql-server
 sudo apt-get -y install mysql-client
 sudo apt-get -y install libmysqlclient-dev
+#安装sublime-text3
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo aecho "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+pt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install sublime-text
 #用umake安装pycharm专业版
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get -y update
