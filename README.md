@@ -24,6 +24,7 @@ vim
 git
 curl
 mongodb
+sublime
 mysql-server
 mysql-client
 libmysqlclient-dev
