@@ -14,10 +14,10 @@ trusted-host=mirrors.aliyun.com' >> pip.conf
 mv pip.conf .pip/
 #安装python所需软件模块
 sudo apt-get -y install python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper
+sudo apt-get -y install vim git ssh mongodb mysql-server mysql-client libmysqlclient-dev
 sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip
-#安装python搭配的软件
-sudo apt-get -y install vim git mongodb mysql-server mysql-client libmysqlclient-dev
+bash /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 #安装sublime-text3
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
