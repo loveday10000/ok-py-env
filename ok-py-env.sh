@@ -4,7 +4,7 @@ rm master.zip
 wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
 sudo python3 oh-my-tuna.py --global
 rm oh-my-tuna.py
-sudo apt-get -y update
+sudo apt-get update
 #修改pip为国内源
 mkdir .pip
 echo '[global]
@@ -45,7 +45,6 @@ sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.li
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 sudo apt-get update
 sudo apt-get -y install google-chrome-stable
-/usr/bin/google-chrome-stable
 #安装culr
 sudo apt -y install curl
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
