@@ -64,32 +64,31 @@ terminal run command and auto restart the system
 
 	quit;
 
-===========================================================================================================================
-===========================================================================================================================
 
-适用于用apt包的 Linux系统 的Onekey-Python-Environment
-项目介绍
+# 适用于用apt包的 Linux系统 的Onekey-Python-Environment
+
+**A项目介绍**
 
 例如：在新的ubuntu18.04中快速创建python环境;在新安装的Linux系统上，网络快速构建基本的python开发环境，而ok-py-env.sh是一个简单的一键式shell脚本Ps：执行期间 回车确定，15分钟左右,完成会自动重启系统.(如果网速不好,会花费更多时间.)
 
-B软件架构
+**B软件架构**
 
 python基本软件(web开发,flask,django,爬虫等项目常用软件)
 
-python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper
+	python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper
 
-vim git curl mongodb sublime mysql culr nvm node live-server libmysqlclient-dev google-chrome-stable pycharm-profession
+	vim git curl mongodb sublime mysql culr nvm node live-server libmysqlclient-dev google-chrome-stable pycharm-profession
 
 提示：ubuntu和PIP的源代码会更改为清华源代码,修改后 pip install 几秒可以下载一个模块.
 
-C使用方法
+**C使用方法**
 
 终端输入下面命令: 
   
 	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-py-env.sh
 
 	
-D说明
+**D说明**
 
 1.如果需要使用自定义虚拟环境，请按如下所示进行创建
 
@@ -97,11 +96,7 @@ D说明
 	
 2.mysql默认是随机密码。修改自定义密码，如下所示
 
-1).log in mysql
-
 	sudo mysql
-
-2).Change the login password
 
 	use mysql;
 
