@@ -24,5 +24,9 @@ sudo apt-get update
 sudo apt-get -y install ubuntu-make sublime-text google-chrome-stable curl
 umake ide pycharm-professional
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install node
+npm install -g live-server
+. ~/.nvm/nvm.sh; nvm install node; npm install -g live-server
 rm -r ok-py-env-master
 sudo reboot
