@@ -30,10 +30,6 @@ sudo apt-get update
 sudo apt-get -y install ubuntu-make sublime-text google-chrome-stable curl
 umake ide pycharm-professional
 
-# 5.安装nvm node live-server
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-. ~/.nvm/nvm.sh; nvm install node; npm install -g live-server
-
 # 6.自动重启系统
 rm -r ok-py-env-master oh-my-tuna.py master.zip
 sudo reboot
