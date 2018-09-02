@@ -3,6 +3,7 @@
 wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
 sudo python3 oh-my-tuna.py --global
 sudo apt-get update
+
 # 2.修改pip为清华源
 echo '[global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
