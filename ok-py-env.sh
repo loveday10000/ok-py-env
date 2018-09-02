@@ -1,14 +1,17 @@
 #! /usr/bin/bash
 
 # 1.改ubuntu为清华源
-rm master.zip; wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py; sudo python3 oh-my-tuna.py --global; rm oh-my-tuna.py; sudo apt-get update
+wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
+sudo python3 oh-my-tuna.py --global
+sudo apt-get update
 
 # 2.修改pip为清华源
 echo '[global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 [install]
 trusted-host=mirrors.aliyun.com' >> pip.conf
-mkdir .pip; mv pip.conf .pip/
+mkdir .pip
+mv pip.conf .pip/
 
 # 3.安装python2,ipython2/3,pip2/3,virtualenv虚拟环境,vim git ssh mongodb数据库 mysql数据库 
 sudo apt-get -y install python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper vim git ssh mongodb mysql-server mysql-client libmysqlclient-dev
@@ -30,7 +33,7 @@ umake ide pycharm-professional
 # 5.安装nvm node live-server
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 . ~/.nvm/nvm.sh; nvm install node; npm install -g live-server
-rm -r ok-py-env-master
 
 # 6.自动重启系统
+rm -r ok-py-env-master oh-my-tuna.py master.zip
 sudo reboot
