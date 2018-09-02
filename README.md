@@ -45,12 +45,6 @@ terminal run command and auto restart the system
 
 1.If you need to use a custom virtual environment, create it as follows
 
-    1)Generate virtual environment folders
-
-    source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
-
-    2)Create py3 virtual environment method
-
     mkvirtualenv venv_name -p /usr/bin/python3
 
 2.mysqlThe default is a random password. Modify the custom password as follows
@@ -100,13 +94,8 @@ D说明
 
 1.如果需要使用自定义虚拟环境，请按如下所示进行创建
 
-1)Generate virtual environment folders
-
-	source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
-
-2)Create py3 virtual environment method
-
 	mkvirtualenv venv_name -p /usr/bin/python3
+	
 2.mysql默认是随机密码。修改自定义密码，如下所示
 
 1).log in mysql
