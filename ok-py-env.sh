@@ -28,6 +28,7 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get -y install apt-transport-https
 sudo apt update
 sudo apt install sublime-text
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 # 6.自动重启系统
 rm -r ok-py-env-master oh-my-tuna.py master.zip
 sudo reboot
