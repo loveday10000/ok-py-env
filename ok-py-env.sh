@@ -27,7 +27,8 @@ umake ide pycharm-professional
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get -y install apt-transport-https
-sudo apt update && sudo apt install sublime-text
+sudo apt update
+sudo apt install sublime-text
 # 6.自动重启系统
 rm -r ok-py-env-master oh-my-tuna.py master.zip
 sudo reboot
