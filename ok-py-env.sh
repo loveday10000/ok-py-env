@@ -15,7 +15,7 @@ sudo pip3 install --upgrade pip
 bash /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 # 3.安装谷歌浏览器
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dkpg -i google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 # 4.安装pycharm专业版
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get update
