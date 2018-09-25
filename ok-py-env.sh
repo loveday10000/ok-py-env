@@ -24,4 +24,5 @@ umake ide pycharm-professional
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 # 6.自动重启系统
 rm -r ok-py-env-master oh-my-tuna.py master.zip google-chrome-stable_current_amd64.deb
+sudo apt-get upgrade
 sudo reboot
