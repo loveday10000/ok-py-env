@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 #安装node live-server
-nvm install node
+sh .nvm/nvm.sh install node
 npm install -g live-server
 sudo apt-get update
 sudo apt-get upgrade
