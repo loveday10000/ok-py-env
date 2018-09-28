@@ -11,7 +11,9 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 
 	python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper
 
-	vim git curl mongodb sublime mysql culr nvm node live-server libmysqlclient-dev google-chrome-stable pycharm-profession
+	vim nginx curl nodejs npm git ssh docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev 
+	
+	google-chrome-stable pycharm-profession
 
 提示：ubuntu和PIP的源代码会更改为清华源代码,修改后 pip install 几秒可以下载一个模块.
 
