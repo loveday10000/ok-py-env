@@ -10,7 +10,7 @@ mkdir .pip; mv pip.conf .pip/
 sudo apt-get update
 # 2.安装python2,ipython2/3,pip2/3,virtualenv虚拟环境,vim git ssh mongodb数据库 mysql数据库 
 sudo apt-get -y install python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper 
-sudo apt-get -y install vim nginx curl nodejs nvm npm git ssh docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
+sudo apt-get -y install vim nginx curl nodejs npm git ssh docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
 sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip
 bash /usr/share/virtualenvwrapper/virtualenvwrapper.sh
