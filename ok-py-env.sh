@@ -24,4 +24,8 @@ sudo apt-get -y install ubuntu-make
 umake ide pycharm-professional
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 sudo apt-get update
-gnome-terminal -- bash -c "yes|sh ok-py-env-master/py-web.sh"
+sh .nvm/nvm.sh install node
+npm install -g live-server
+sudo apt-get upgrade
+rm -r master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb
+sudo reboot
