@@ -24,4 +24,5 @@ sudo apt-get -y install ubuntu-make
 umake ide pycharm-professional
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 # 6.自动重启系统
+sudo apt-get update
 gnome-terminal -- bash -c "yes|sh ok-py-env-master/py-web.sh"
