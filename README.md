@@ -21,7 +21,7 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 
 终端输入下面2条命令: 
   
-	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;
+	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip
 	sh ok-py-env-master/ok-py-env.sh
 
 	
