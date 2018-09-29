@@ -25,11 +25,15 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 	sh ok-py-env-master/ok-py-env.sh
 
 	
-**D说明**
+**D其他说明** 
 
 1.使用python3虚拟环境，需要指定python3解释器路径
 
 	mkvirtualenv 虚拟环境名称 -p /usr/bin/python3
+
+3.安装live-server
+	 nvm install node
+	 npm install live-server
 	
 2.mysql默认是随机密码。修改自定义密码，如下所示
 
