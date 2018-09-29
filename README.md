@@ -31,13 +31,13 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 
 	mkvirtualenv 虚拟环境名称 -p /usr/bin/python3
 
-3.安装live-server
+2.安装live-server
 
 	 nvm install node
 	 
 	 npm install live-server
 	
-2.mysql默认是随机密码。修改自定义密码，如下所示
+3.mysql默认是随机密码。修改自定义密码，如下所示
 
 	sudo mysql
 
