@@ -23,7 +23,12 @@ sudo apt-get update
 sudo apt-get -y install ubuntu-make
 umake ide pycharm-professional
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+# 5.安装chromedriver
+wget https://npm.taobao.org/mirrors/chromedriver/70.0.3538.16/chromedriver_linux64.zip
+unzip chromedirver_linux64.zip
+cp chromedriver /usr/bin/
+# 6.清理文件并重启系统生效
 sudo apt-get update
 sudo apt-get upgrade
-rm -r master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb
+rm -r master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb chromedriver_linux64.zip
 sudo reboot
