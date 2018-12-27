@@ -13,8 +13,7 @@ sudo apt-get -y install python ipython ipython3 python-pip python3-pip virtualen
 sleep 10s
 sudo apt-get -y install vim nginx curl nodejs npm git ssh docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
 sleep 10s
-sudo apt-get -y install apache2 php php-mysql libapache2-mod-php php-mysql php-curl php-gd tomcat8 tomcat8-docs tomcat8-examples tomcat8-admin
-sleep 10s
+# sudo apt-get -y install apache2 php php-mysql libapache2-mod-php php-mysql php-curl php-gd tomcat8 tomcat8-docs tomcat8-examples tomcat8-admin
 sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip
 bash /usr/share/virtualenvwrapper/virtualenvwrapper.sh
