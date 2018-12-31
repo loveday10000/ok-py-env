@@ -15,5 +15,5 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sleep 3s
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sleep 3s
-rm -r google-chrome-stable_current_amd64.deb
+rm -r google-chrome-stable_current_amd64.deb master.zip ok-py-env-master oh-my-tuna.py
 sudo reboot
