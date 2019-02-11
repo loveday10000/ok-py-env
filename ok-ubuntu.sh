@@ -1,5 +1,6 @@
 #! /usr/bin/bash
-# 1.修改ubuntu和pip为清华源wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
+# 1.修改ubuntu和pip为清华源
+wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
 sudo python3 oh-my-tuna.py --global
 echo '[global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
