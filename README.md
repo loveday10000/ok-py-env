@@ -23,8 +23,11 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 
   桌面版使用命令
   
+  python环境（全功能）
 	wget https://github.com/loveday10000/ok-py-env/archive/master.zip;unzip master.zip;sh ok-py-env-master/ok-py-env.sh
-	
+
+
+  ubuntu环境（简易版）
 	wget https://github.com/loveday10000/ok-py-env/archive/master.zip; unzip master.zip;sh ok-py-env-master/ok-ubuntu.sh
 
 
