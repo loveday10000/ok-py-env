@@ -44,7 +44,7 @@ sleep 5s
 # 5.安装chromedriver
 wget https://npm.taobao.org/mirrors/chromedriver/73.0.3683.68/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
-cp chromedriver /usr/bin/
+sudo cp chromedriver /usr/bin/
 sleep 5s
 # 6.清理文件并重启系统生效
 sudo apt-get update
