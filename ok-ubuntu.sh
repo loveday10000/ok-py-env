@@ -7,7 +7,8 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 [install]
 trusted-host=mirrors.aliyun.com' >> pip.conf
 mkdir .pip; mv pip.conf .pip/
-sleep 3s
+sudo rm /var/lib/apt/lists/lock
+sleep 1s
 sudo apt-get update;sudo apt-get upgrade
 # 2.安装ubuntu常用软件工具
 sudo apt-get -y install vim ssh
