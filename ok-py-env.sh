@@ -13,6 +13,7 @@ sudo apt-get update
 sleep 1s
 sudo apt-get upgrade
 sleep 3s
+sudo rm /var/lib/apt/lists/lock
 # 2.安装pycharm专业版
 sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get update
