@@ -18,7 +18,6 @@ sleep 3s
 sudo apt-get -y virtualenv virtualenvwrapper pyqt5
 sleep 3s
 sudo pip install shadowsocks
-cpan Net::Shadowsocks
 sleep 5s
 sudo apt-get -y install vim nginx curl nodejs npm git ssh shadowsocks-libev
 sleep 5s
