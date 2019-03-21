@@ -7,6 +7,7 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 [install]
 trusted-host=mirrors.aliyun.com' >> pip.conf
 mkdir .pip; mv pip.conf .pip/
+sudo rm /var/lib/apt/lists/lock
 sleep 2s
 sudo apt-get update
 sudo apt-get upgrade
