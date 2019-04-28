@@ -26,6 +26,9 @@ sudo apt-get -y tomcat8 tomcat8-docs tomcat8-examples tomcat8-admin
 sleep 3s
 sudo pip install virtualenv virtualenvwrapper shadowsocks
 sleep 3s
+sudo pip install --upgrade pip
+sudo pip3 install --upgrade pip
+sleep 3s
 bash /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 sleep 1s
 # 3.安装谷歌浏览器
