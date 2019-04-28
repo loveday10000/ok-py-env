@@ -24,7 +24,7 @@ sudo apt-get -y install apache2 php php-mysql libapache2-mod-php php-mysql php-c
 sleep 3s
 sudo apt-get -y tomcat8 tomcat8-docs tomcat8-examples tomcat8-admin
 sleep 3s
-sudo pip install virtualenv virtualenvwrapper shadowsocks
+sudo pip3 install virtualenv virtualenvwrapper shadowsocks
 sleep 3s
 sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip
