@@ -39,6 +39,6 @@ sleep 5s
 # 5.清理文件并重启系统生效
 sudo apt-get update
 sudo apt-get upgrade
-rm -r master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb chromedriver_linux64.zip .bash_history
+rm -r master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb .bash_history
 sleep 5s
 sudo reboot
