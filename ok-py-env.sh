@@ -40,12 +40,7 @@ sleep 5s
 umake ide pycharm-professional
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 sleep 5s
-# 5.安装chromedriver
-wget http://cdn.npm.taobao.org/dist/chromedriver/74.0.3729.6/chromedriver_linux64.zip
-unzip chromedriver_linux64.zip
-sudo cp chromedriver /usr/bin/
-sleep 5s
-# 6.清理文件并重启系统生效
+# 5.清理文件并重启系统生效
 sudo apt-get update
 sudo apt-get upgrade
 rm -r master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb chromedriver_linux64.zip .bash_history
