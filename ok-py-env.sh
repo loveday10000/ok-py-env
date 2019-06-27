@@ -18,6 +18,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sleep 3s
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sleep 3s
+sudo rm /var/lib/apt/lists/lock
+sleep 1s
 # 3.安装pycharm专业版
 sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get update
@@ -26,6 +28,8 @@ sleep 5s
 umake ide pycharm-professional
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 sleep 5s
+sudo rm /var/lib/apt/lists/lock
+sleep 1s
 # 4.安装python2,ipython2/3,pip2/3,virtualenv虚拟环境,vim git ssh mongodb数据库 mysql数据库 
 sudo apt-get -y install python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper
 sleep 3s
