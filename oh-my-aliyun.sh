@@ -48,6 +48,9 @@ sleep 3s
 sudo rm /var/lib/apt/lists/lock
 sleep 1s
 # 安装pycharm专业版
+wget https://download.jetbrains.8686c.com/toolbox/jetbrains-toolbox-1.15.5387.tar.gz
+tar -xvf jetbrains-toolbox-1.15.5387.tar.gz
+./jetbrains-toolbox-1.15.5387/jetbrains-toolbox
 sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get update
 sudo apt-get -y install ubuntu-make
