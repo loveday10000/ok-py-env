@@ -24,7 +24,7 @@ sleep 1s
 wget https://download.jetbrains.8686c.com/toolbox/jetbrains-toolbox-1.15.5387.tar.gz
 tar -xvf jetbrains-toolbox-1.15.5387.tar.gz
 ./jetbrains-toolbox-1.15.5387/jetbrains-toolbox
-rm -rf jetbrains-toolbox-1.15.5387 jetbrains-toolbox-1.15.5387.tar.gz
+rm -rf jetbrains-toolbox-1.15.5387 jetbrains-toolbox-1.15.5387.tar
 sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
 sudo apt-get update
 sudo apt-get -y install ubuntu-make
