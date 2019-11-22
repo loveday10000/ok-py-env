@@ -5,8 +5,8 @@ wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
 sudo apt-get install python3
 sudo python3 oh-my-tuna.py --global
 sudo rm /var/lib/apt/lists/lock
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 sleep 3s
 sudo rm /var/lib/apt/lists/lock
 
@@ -20,7 +20,7 @@ sudo rm /var/lib/apt/lists/lock
 wget https://download.jetbrains.8686c.com/toolbox/jetbrains-toolbox-1.16.6067.tar.gz
 tar -xvf *.tar.gz
 ./jetbrains-toolbox-*/jetbrains-toolbox
-sudo apt-get update
+sudo apt-get -y update
 sleep 3s
 sudo rm /var/lib/apt/lists/lock
 
@@ -38,8 +38,8 @@ sleep 1s
 sudo rm /var/lib/apt/lists/lock
 
 # 5.清理文件并重启系统生效
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 rm -rf master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb .bash_history jetbrains-toolbox-*
 sleep 3s
 sudo reboot
