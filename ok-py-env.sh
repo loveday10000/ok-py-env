@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 # 1.修改ubuntu和pip为清华源
 #!/bin/bash
+sudo su
 cp /etc/apt/sources.list /etc/apt/sources.list.bak
 echo deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse > /etc/apt/sources.list
 echo deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse >> /etc/apt/sources.list
