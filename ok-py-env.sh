@@ -2,11 +2,12 @@
 # 1.修改ubuntu和pip为清华源
 #!/bin/bash
 wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
-python oh-my-tuna.py --global
+sudo python oh-my-tuna.py --global
 sudo rm /var/lib/apt/lists/lock
 sudo apt-get update
 sudo apt-get upgrade
 sleep 3s
+sudo rm /var/lib/apt/lists/lock
 
 # 2.安装谷歌浏览器
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -33,6 +34,7 @@ sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 sleep 1s
+sudo rm /var/lib/apt/lists/lock
 
 # 5.清理文件并重启系统生效
 sudo apt-get update
