@@ -49,8 +49,8 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 	 
 	 npm install live-server
 	
-3.mysql默认是随机密码。修改自定义密码，如下所示
-
+3.root账户下mysql默认是无密码。修改自定义密码，如下所示
+        
 	sudo mysql
 
 	use mysql;
