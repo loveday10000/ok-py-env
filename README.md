@@ -22,6 +22,7 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 终端输入下面2条命令: 
 
   桌面版使用命令
+  首先切换为sudo su root管理员权限
   
   python环境（桌面版）
   
