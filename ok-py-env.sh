@@ -44,6 +44,6 @@ sudo rm /var/lib/apt/lists/lock
 # 5.清理文件并重启系统生效
 sudo apt-get -y update
 sudo apt-get -y upgrade
-rm -rf master.zip ok-py-env-master oh-my-tuna.py google-chrome-stable_current_amd64.deb .bash_history jetbrains-toolbox-*
+rm -rf ok-py-env.sh oh-my-tuna.py google-chrome-stable_current_amd64.deb .bash_history jetbrains-toolbox-*
 sleep 3s
 sudo reboot
