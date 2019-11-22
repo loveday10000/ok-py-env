@@ -4,6 +4,11 @@
 wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
 sudo apt-get install python3
 sudo python3 oh-my-tuna.py --global
+echo '[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/
+[install]
+trusted-host=mirrors.aliyun.com' >> pip.conf
+mkdir .pip; mv pip.conf .pip/
 sudo rm /var/lib/apt/lists/lock
 sudo apt-get -y update
 sudo apt-get -y upgrade
