@@ -31,7 +31,6 @@ sudo apt-get -y install vim nginx curl nodejs npm git ssh
 sleep 3s
 sudo apt-get -y docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
 sleep 3s
-sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 sleep 1s
