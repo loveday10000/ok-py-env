@@ -9,11 +9,11 @@
 
 python基本软件(web开发,flask,django,爬虫等项目常用软件)
 
-	python ipython ipython3 python-pip python3-pip virtualenv virtualenvwrapper
+	ipython3 python3-pip virtualenv virtualenvwrapper
 
 	vim nginx curl nodejs npm git ssh docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev 
 	
-	google-chrome-stable pycharm-profession
+	google-chrome-stable jetbrains-toolbox
 
 提示：ubuntu和PIP的源代码会更改为清华源代码,以便加速系统下载软件模块。
 
@@ -22,13 +22,12 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 终端输入下面2条命令: 
 
   桌面版使用命令
-  首先切换为sudo su root管理员权限
   
   python环境（桌面版）
   
   
   
-	wget https://github.com/loveday10000/ok-py-env/archive/master.zip;unzip master.zip;sh ok-py-env-master/ok-py-env.sh
+	wget https://raw.githubusercontent.com/loveday10000/ok-py-env/master/ok-py-env.sh;sh ok-py-env.sh
 
 
 
