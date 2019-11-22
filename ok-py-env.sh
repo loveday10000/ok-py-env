@@ -2,7 +2,8 @@
 # 1.修改ubuntu和pip为清华源
 #!/bin/bash
 wget https://tuna.moe/oh-my-tuna/oh-my-tuna.py
-sudo python oh-my-tuna.py --global
+sudo apt-get install python3
+sudo python3 oh-my-tuna.py --global
 sudo rm /var/lib/apt/lists/lock
 sudo apt-get update
 sudo apt-get upgrade
