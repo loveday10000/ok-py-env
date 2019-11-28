@@ -34,7 +34,7 @@ sudo apt-get -y install ipython3 python3-pip virtualenv virtualenvwrapper
 sleep 3s
 sudo apt-get -y install vim nginx curl nodejs npm git ssh
 sleep 3s
-sudo apt-get -y phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
+sudo apt-get -y install docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
 sleep 3s
 sudo pip3 install --upgrade pip
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
