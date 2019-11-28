@@ -32,7 +32,7 @@ sudo rm /var/lib/apt/lists/lock
 # 4.安装ipython3,pip3,virtualenv虚拟环境,vim git ssh mongodb数据库 mysql数据库 
 sudo apt-get -y install ipython3 python3-pip virtualenv virtualenvwrapper
 sleep 3s
-sudo apt-get -y install vim nginx curl nodejs npm git ssh
+sudo apt-get -y install vim nginx curl nodejs npm git ssh net-tools
 sleep 3s
 sudo apt-get -y install docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
 sleep 3s
