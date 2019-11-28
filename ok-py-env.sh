@@ -36,7 +36,7 @@ sudo apt-get -y install vim nginx curl nodejs npm git ssh net-tools openjdk-8-jd
 sleep 3s
 sudo apt-get -y install docker.io phantomjs redis mongodb mysql-server mysql-client libmysqlclient-dev
 sleep 3s
-sudo sed -i "s/bind/#bind/g" /etc/mysql/mysql.conf.d/mysqld.cnf  #接触只能本机连接mysql限制
+sudo sed -i "s/bind/#bind/g" /etc/mysql/mysql.conf.d/mysqld.cnf  #解除仅本机能连接mysql的限制
 systemctl restart mysql.service
 sudo pip3 install --upgrade pip
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
