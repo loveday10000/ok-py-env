@@ -62,7 +62,4 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 	flush privileges;
 
 	quit;
-4.navicat连接mysql
-        sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
-	bind-address = 127.0.0.1 #注释或删除这行即可
 ![ok-py-env.sh](https://images.gitee.com/uploads/images/2018/0828/194259_10483f6b_2026959.png "ok.png")
