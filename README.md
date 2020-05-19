@@ -55,7 +55,7 @@ python基本软件(web开发,flask,django,爬虫等项目常用软件)
 
 	use mysql;
 
-	update user set authentication_string=PASSWORD("你的密码") where User='root';
+	update mysql.user set authentication_string=PASSWORD('你的密码'), plugin='mysql_native_password' where user='root';
 
 	update user set plugin="mysql_native_password";
 
